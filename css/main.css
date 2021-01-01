@@ -65,6 +65,20 @@
 .main-about {
     height: 50vh;
 }
+.main-about-header {
+    font-size: 7.5vw;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.main-about-box {
+    width: 350px;
+    height: 45vh;
+    background-color: pink;
+    border: solid 2px black;
+    margin-right: 10px;
+}
+
 /*Main About Section End*/
 
 /*FLex Code Start*/
