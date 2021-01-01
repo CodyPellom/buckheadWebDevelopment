@@ -1,11 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Outline&family=Roboto+Mono:wght@300&family=Yellowtail&display=swap');
 /*Universals Start*/
+.yellowtail {
+    font-family: 'Yellowtail';
+}
+.bungee {
+    font-family: 'Bungee Out';
+}
+.roboto {
+    font-family: 'Roboto Mono';
+}
 .width-100 {
     width: 100%;
 }
 /*Universals End*/
 
 .main-navbar {
-    height: 15vw;
+    height: 5vw;
+    margin-top: 2.5vw;
+    overflow: visible;
+    position: fixed;
+}
+
+.bwd-navbar-logo {
+    width: 50px;
+    height: 50px;
+    left: 10px;
+    position: absolute;
+}
+
+.bwd-navbar-logo-text {
+    left: 75px;
+    position: absolute;
+    font-size: 2vw;
 }
 
 /*FLex Code Start*/
@@ -14,6 +40,7 @@
     flex-direction: column;
     justify-content: center;
     align-content: center;
+    align-items: center;
 }
 
 .flex-row {
@@ -21,5 +48,6 @@
     flex-direction: row;
     justify-content: center;
     align-content: center;
+    align-items: center;
 }
 /*FLex Code End*/

@@ -1,3 +1,21 @@
+.white-text {
+    color: #FFFFFF;
+}
+.white-bg {
+    background-color: #FFFFFF;
+}
+.natural-grey-text {
+    color: #CFD8DC;
+}
+.natural-grey-bg {
+    background-color: #CFD8DC;
+}
+.natural-black-text {
+    color: #2b3033;
+}
+.natural-black-bg {
+    background-color: #2b3033;
+}
 .indigo-white-text {
     color: #E8EAF6;
 }
