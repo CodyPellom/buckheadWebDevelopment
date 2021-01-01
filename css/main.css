@@ -1,10 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Bungee+Outline&family=Roboto+Mono:wght@300&family=Yellowtail&display=swap');
-/*Universals Start*/
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Outline&family=Langar&family=Roboto+Mono:wght@300&family=Yellowtail&display=swap');/*Universals Start*/
+.langar {
+    font-family: 'Langar';
+}
 .yellowtail {
     font-family: 'Yellowtail';
 }
 .bungee {
-    font-family: 'Bungee Out';
+    font-family: 'Bungee Outline';
 }
 .roboto {
     font-family: 'Roboto Mono';
@@ -21,6 +23,12 @@
     position: fixed;
 }
 
+.main-navbar-link {
+    text-decoration: none;
+    font-size: 1.75vw;
+    margin-right: 0.25vw;
+}
+
 .bwd-navbar-logo {
     width: 50px;
     height: 50px;
@@ -33,6 +41,31 @@
     position: absolute;
     font-size: 2vw;
 }
+
+.main-navbar-selections {
+    position: absolute;
+    right: 10px;
+}
+
+/*Main Landing Starts*/
+.main-lander {
+    height: 100vh;
+    background-image: url('../images/computer-technician.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.main-lander-text-p {
+    font-size: 5vw;
+    background-color: rgba(0, 0, 0, 0.555);
+}
+/*Main Landing Ends*/
+
+/*Main About Section Start*/
+.main-about {
+    height: 50vh;
+}
+/*Main About Section End*/
 
 /*FLex Code Start*/
 .flex-column {
