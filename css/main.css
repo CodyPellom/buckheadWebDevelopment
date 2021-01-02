@@ -98,3 +98,29 @@
     align-items: center;
 }
 /*FLex Code End*/
+
+/*Footer Section Starts*/
+.main-footer {
+height: 50vh;
+}
+.bwd-footer-logo {
+    width: 150px;
+    height: 150px;
+    left: 10px;
+    position: absolute;
+}
+.bwd-footer-logo-text {
+    left: 75px;
+    position: absolute;
+    font-size: 2vw;
+}
+.main-footer-selections {
+    position: absolute;
+    right: 10px;
+}
+.main-footer-link {
+    text-decoration: none;
+    font-size: 1.75vw;
+    margin-right: 0.25vw;
+}
+/*Footer Section Ends*/
