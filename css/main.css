@@ -50,9 +50,16 @@
 /*Main Landing Starts*/
 .main-lander {
     height: 100vh;
-    background-image: url('../images/computer-technician.png');
+    /* background-image: url('../images/computer-technician.png');
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
+}
+
+.main-lander-video {
+    position: absolute;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
 }
 
 .main-lander-text-p {
@@ -63,7 +70,8 @@
 
 /*Main About Section Start*/
 .main-about {
-    height: 50vh;
+    height: 100vh;
+    margin-top: 125px;
 }
 .main-about-header {
     font-size: 7.5vw;
