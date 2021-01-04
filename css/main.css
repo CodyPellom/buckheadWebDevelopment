@@ -1,15 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Bungee+Outline&family=Langar&family=Roboto+Mono:wght@300&family=Yellowtail&display=swap');/*Universals Start*/
-.langar {
-    font-family: 'Langar';
-}
-.yellowtail {
-    font-family: 'Yellowtail';
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&family=Redressed&display=swap');
+.redressed {
+    font-family: 'Redressed';
 }
 .bungee {
     font-family: 'Bungee Outline';
 }
-.roboto {
-    font-family: 'Roboto Mono';
+.open-sans {
+    font-family: 'Open Sans';
 }
 .width-100 {
     width: 100%;
@@ -64,14 +61,13 @@
 
 .main-lander-text-p {
     font-size: 5vw;
-    background-color: rgba(0, 0, 0, 0.555);
 }
 /*Main Landing Ends*/
 
 /*Main About Section Start*/
 .main-about {
     height: 100vh;
-    margin-top: 125px;
+    margin-top: 25px;
 }
 .main-about-header {
     font-size: 7.5vw;
