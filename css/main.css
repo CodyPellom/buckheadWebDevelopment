@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&family=Redressed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&family=Oswald:wght@500&family=Rubik:wght@500&family=Source+Sans+Pro:wght@700&display=swap');
+
 .redressed {
     font-family: 'Redressed';
 }
@@ -7,6 +9,20 @@
 }
 .open-sans {
     font-family: 'Open Sans';
+}
+.oswald {
+    font-family: 'Oswald';
+    font-weight: 500;
+}
+.noto-serif {
+    font-family: 'Noto Serif';
+}
+.rubik {
+    font-family: 'Rubik';
+}
+.rubik-link {
+    font-family: 'Rubik';
+    font-weight: 100;
 }
 .width-100 {
     width: 100%;
@@ -22,8 +38,14 @@
 
 .main-navbar-link {
     text-decoration: none;
-    font-size: 1.75vw;
-    margin-right: 0.25vw;
+    font-size: 1.25vw;
+    margin-right: 0.85vw;
+    margin-left: 0.85vw;
+}
+
+.main-navbar-link:hover {
+    color: #22ffdb;
+    transition: color 1s;
 }
 
 .bwd-navbar-logo {
@@ -54,25 +76,28 @@
 
 .main-lander-video {
     position: absolute;
-    min-width: 100%;
-    min-height: 100%;
+    width: 100%;
+    min-height: 100vh;
     z-index: -1;
+    padding-bottom: -5%;
 }
 
 .main-lander-text-p {
     font-size: 5vw;
+    font-weight: 800;
 }
 /*Main Landing Ends*/
 
 /*Main About Section Start*/
 .main-about {
     height: 100vh;
-    margin-top: 25px;
+    margin-top: 5%;
 }
 .main-about-header {
-    font-size: 7.5vw;
-    margin-top: 0;
-    margin-bottom: 0;
+    font-size: 5vw;
+    font-weight: 650;
+    margin-top: 3.5%;
+    margin-bottom: 2.5%;
 }
 
 .main-about-box {
