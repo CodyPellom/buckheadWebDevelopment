@@ -32,10 +32,13 @@
 .width-100 {
     min-width: 100%;
 }
+.no-text-decoration {
+    text-decoration: none;
+}
 /*Universals End*/
 
 .main-navbar {
-    height: 7.5vw;
+    height: 5.25vw;
     margin-top: 2.5vw;
     overflow: visible;
     position: fixed;
@@ -44,7 +47,8 @@
 
 .main-navbar-link {
     text-decoration: none;
-    font-size: 1.25vw;
+    font-weight: 500;
+    font-size: 1.75vw;
     margin-right: 0.85vw;
     margin-left: 0.85vw;
 }
@@ -55,8 +59,8 @@
 }
 
 .bwd-navbar-logo {
-    width: 4vw;
-    height: 4vw;
+    width: 3.5vw;
+    height: 3.5vw;
     left: 10px;
     margin-top: 5px;
     position: absolute;
@@ -71,6 +75,7 @@
 .main-navbar-selections {
     position: absolute;
     right: 10px;
+    
 }
 
 /*Main Landing Starts*/
@@ -168,24 +173,44 @@
     margin-top: 0;
     margin-bottom: 5%;
 }
+.contact-info-text-section {
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+    
+}
 .contact-info-header {
     font-size: 3.25vw;
     font-weight: 500;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.contact-info-text-header {
+    font-size: 2.25vw;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 0
 }
 .contact-info-text {
     margin-top: 0;
     margin-bottom: 0;
+    color: black;
+    font-size: 2.25vw;
 }
+.contact-info-text:hover {
+    color: #22ffdb;
+    transition: color 1s;
+}
+
 
 /*Footer Section Starts*/
 .main-footer {
-    height: 100px;
+    height: 5vw;
     min-width: 100%;
 }
 
 .bwd-footer-logo {
-    width: 75px;
-    height: 75px;
+    width: 5vw;
+    height: 5vw;
     left: 10px;
     position: absolute;
 }
@@ -201,6 +226,7 @@
 .main-footer-link {
     text-decoration: none;
     font-size: 1.75vw;
-    margin-right: 0.25vw;
+    margin-right: 0.5vw;
+    margin-left: 0.5vw;
 }
 /*Footer Section Ends*/
