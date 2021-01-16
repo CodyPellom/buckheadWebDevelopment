@@ -75,10 +75,7 @@
 
 /*Main Landing Starts*/
 .main-lander {
-    height: 80vh;
-    /* background-image: url('../images/computer-technician.png');
-    background-size: cover;
-    background-repeat: no-repeat; */
+    height: 100vh;
 }
 
 .main-lander-video {
@@ -164,6 +161,21 @@
     align-items: center;
 }
 /*FLex Code End*/
+
+/*Contact Page*/
+.contact-info-section {
+    height: 50vw;
+    margin-top: 0;
+    margin-bottom: 5%;
+}
+.contact-info-header {
+    font-size: 3.25vw;
+    font-weight: 500;
+}
+.contact-info-text {
+    margin-top: 0;
+    margin-bottom: 0;
+}
 
 /*Footer Section Starts*/
 .main-footer {
