@@ -106,7 +106,7 @@
 
 /*Main Landing Starts*/
 .main-lander {
-    height: 85vw;
+    height: 60vw;
 }
 
 .main-lander-video {
@@ -124,37 +124,34 @@
 
 /*Main About Section Start*/
 .main-about {
-    height: 80vh;
-    margin-top: 15vh;
-    margin-bottom: 10vh;
+    height: 100%;
+    padding-bottom: 5vw;
 }
 .main-about-header {
-    font-size: 5vw;
+    font-size: 1.25em;
     font-weight: 650;
-    margin-top: 3.5%;
-    margin-bottom: 2.5%;
-    color: #22ffdb;
+    color: #ffffff;
 }
 
 .main-about-box {
-    width: 250px;
-    height: 250px;
+    width: 300px;
+    height: 225px;
     background-color: rgb(151, 151, 151);
-    border: solid 2px #22ffdb;
-    /*padding: 1.5em;*/
+    border: solid 5px #22ffdb;
+    margin: 15px;
 }
 
 .main-about-box-text-header {
     text-align: center;
     color: #22ffdb;
-    font-size: 0.5em;
+    font-size: 0.85em;
 }
 
 .main-about-box-text {
     margin-bottom: 0;
     margin-top: 0;
     text-align: center;
-    font-size: 0.65em
+    font-size: 0.75em
 
 }
 
@@ -166,6 +163,11 @@
 #particles-js {
 }
 
+.particles-js-canvas-el {
+    z-index: 0;
+
+}
+
 /*Main About Section End*/
 
 /*FLex Code Start*/
@@ -175,7 +177,6 @@
     justify-content: center;
     align-content: center;
     align-items: center;
-    flex: 25%;
 }
 
 .flex-row {
@@ -267,10 +268,7 @@
     margin-bottom: 0;
     margin-top: 0;
     text-align: center;
-    font-size: .55em;
+    font-size: .65em;
 }
-.flex-column {
-    flex: 5%;
-  }
   }
   /*Tablet end*/
