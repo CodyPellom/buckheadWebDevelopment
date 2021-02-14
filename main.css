@@ -35,6 +35,31 @@
 .no-text-decoration {
     text-decoration: none;
 }
+.black-bg {
+    background-color: black;
+}
+.ml6 {
+    position: relative;
+    font-weight: 900;
+    font-size: 3.3em;
+  }
+  
+  .ml6 .text-wrapper {
+    position: relative;
+    display: inline-block;
+    padding-top: 0.2em;
+    padding-right: 0.05em;
+    padding-bottom: 0.1em;
+    overflow: hidden;
+  }
+  
+  .ml6 .letter {
+    display: inline-block;
+    line-height: 1em;
+  }
+  html {
+      background-color: rgb(17, 17, 17);
+  }
 /*Universals End*/
 
 .main-navbar {
@@ -43,6 +68,7 @@
     overflow: visible;
     position: fixed;
     transition: all 1s;
+    z-index: 3;
 }
 
 .main-navbar-link {
@@ -80,19 +106,19 @@
 
 /*Main Landing Starts*/
 .main-lander {
-    height: 100vh;
+    height: 85vw;
 }
 
 .main-lander-video {
     position: absolute;
     width: 100%;
-    min-height: 100vh;
-    z-index: -1;
+    z-index: 2;
 }
 
 .main-lander-text-p {
     font-size: 5vw;
     font-weight: 800;
+    z-index: 3;
 }
 /*Main Landing Ends*/
 
@@ -107,35 +133,28 @@
     font-weight: 650;
     margin-top: 3.5%;
     margin-bottom: 2.5%;
+    color: #22ffdb;
 }
 
 .main-about-box {
-    width: 30vw;
-    height: 30vw;
+    width: 250px;
+    height: 250px;
     background-color: rgb(151, 151, 151);
-    border: solid 2px black;
-    margin-right: 10px;
-} 
-
-.main-about-text-section {
-    position: absolute;
-    width: 25vw;
-    height: 25vw;
+    border: solid 2px #22ffdb;
+    /*padding: 1.5em;*/
 }
 
 .main-about-box-text-header {
-    margin-bottom: 5vh;
-    margin-top: 5vh;
     text-align: center;
     color: #22ffdb;
-    font-size: 2.25vw;
+    font-size: 0.5em;
 }
 
 .main-about-box-text {
     margin-bottom: 0;
     margin-top: 0;
     text-align: center;
-    font-size: 14px;
+    font-size: 0.65em
 
 }
 
@@ -156,6 +175,7 @@
     justify-content: center;
     align-content: center;
     align-items: center;
+    flex: 25%;
 }
 
 .flex-row {
@@ -164,7 +184,11 @@
     justify-content: center;
     align-content: center;
     align-items: center;
+    flex-wrap: wrap;
+
 }
+
+
 /*FLex Code End*/
 
 /*Contact Page*/
@@ -206,6 +230,9 @@
 .main-footer {
     height: 5vw;
     min-width: 100%;
+    bottom: 0;
+    position: fixed;
+    z-index: 3;
 }
 
 .bwd-footer-logo {
@@ -230,3 +257,20 @@
     margin-left: 0.5vw;
 }
 /*Footer Section Ends*/
+
+/*at media shit */
+
+/*Phones start*/
+@media only screen and (max-width: 812px) {
+
+.main-about-box-text {
+    margin-bottom: 0;
+    margin-top: 0;
+    text-align: center;
+    font-size: .55em;
+}
+.flex-column {
+    flex: 5%;
+  }
+  }
+  /*Tablet end*/

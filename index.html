@@ -5,24 +5,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Buckhead Web Development</title>
-    <link rel="stylesheet" href="../css/main.css">
-    <link rel="stylesheet" href="../css/colors.css">
+    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="./colors.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+
 </head>
 
 <body onresize="getNavbarHeight()">
+    
     <!--NAVBAR START-->
     <div class="flex-column">
         <div class="main-navbar flex-row width-100 natural-black-bg" id="main-navbar-id">
             <!--Main navbar logo start-->
-            <img src="../images/bwdDraftLogo.png" class="bwd-navbar-logo" alt="">
+            <img src="./bwdDraftLogo.png" class="bwd-navbar-logo" alt="">
             <a href="./index.html" class="no-text-decoration indigo-white-text bwd-navbar-logo-text rubik">Buckhead Web Development</a>
             <!--Main navbar logo start-->
             <!---->
             <!--Main Nabar Selection Start-->
             <div class="main-navbar-selections">
-                <a href="#" class="main-navbar-link white-text open-sans">Services</a>
-                <a href="#" class="main-navbar-link white-text open-sans">About</a>
-                <a href="./contact.html" class="main-navbar-link white-text open-sans">Contact</a>
+                <!-- <a href="#" class="main-navbar-link white-text open-sans">Services</a>
+                <a href="#" class="main-navbar-link white-text open-sans">About</a> -->
+                <!-- <a href="./contact.html" class="main-navbar-link white-text open-sans">Contact</a> -->
+                <a href='tel:+1-470-560-2583' class="main-navbar-link white-text open-sans">contact</a>
             </div>
             <!--Main Nabar Selection End-->
         </div>
@@ -32,12 +36,15 @@
     <!--Main Landing Start-->
     <div class="flex-column main-lander width-100">
         <video muted loop autoplay class="main-lander-video">
-            <source src="../videos/office-bg-02.mp4" type="video/mp4">
+            <source src="./office-bg-02.mp4" type="video/mp4">
 
         </video>
         <div class="main-lander-text">
-            <p class="pretty-logo-blue-text main-lander-text-p open-sans">Serving the community since 2016
-            </p>
+            <h1 class="ml6 pretty-logo-blue-text main-lander-text-p open-sans">
+                <span class="text-wrapper">
+                  <span class="letters">website is under construction</span>
+                </span>
+              </h1>
         </div>
     </div>
     <!--Main Landing End-->
@@ -59,10 +66,11 @@
                     <p class="main-about-box-text rubik-link">Software Help</p>
                     <p class="main-about-box-text rubik-link">General Troubleshooting</p>
                     <p class="main-about-box-text rubik-link">Anti-Virus Installation</p>
-
+                    </div>
                 </div>
-            </div>
+            </div> 
             <!--Box 2-->
+            <div class="flex-row">
             <div class="main-about-box flex-column" id="particles-js-2">
                 <div class="main-about-text-section">
                     <h3 class="main-about-box-text-header rubik pretty-logo-blue-text">Web Development</h3>
@@ -76,8 +84,10 @@
                     <p class="main-about-box-text rubik-link">Domain Support</p>
                 </div>
             </div>
+            </div>
             <!--Box 3-->
-            <div class="main-about-box flex-column" id="particles-js-3">
+            <div>
+             <div class="main-about-box flex-column" id="particles-js-3">
                 <div class="main-about-text-section">
                     <h3 class="main-about-box-text-header rubik pretty-logo-blue-text">Business Support</h3>
                     <p class="main-about-box-text rubik-link">Ad Design</p>
@@ -98,7 +108,7 @@
     <div class="flex-column">
         <div class="main-footer flex-row width-100 natural-black-bg">
             <!--Main navbar logo start-->
-            <img src="../images/bwdDraftLogo.png" class="bwd-footer-logo" alt="">
+            <img src="./bwdDraftLogo.png" class="bwd-footer-logo" alt="">
             <!--Main navbar logo start-->
             <!---->
             <!--Main Footer Section Start-->
@@ -106,15 +116,15 @@
                 <a href="#" class="main-footer-link white-text open-sans">Services</a>
                 <a href="#" class="main-footer-link white-text open-sans">About</a>
                 <a href="#" class="main-footer-link white-text open-sans">Contact</a>
-            </div>
+            </div> 
             <!--Main Footer Section End-->
         </div>
-    </div>
+    </div> 
     <!--Footer Section End-->
     <!---->
     <!--Bottom Scripts Start-->
-    <script src="../js/Particle.js"></script>
-    <script src="../js/main.js"></script>
+    <script src="./Particle.js"></script>
+    <script src="./main.js"></script>
 
 </body>
 
