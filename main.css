@@ -258,6 +258,10 @@
     margin-right: 0.5vw;
     margin-left: 0.5vw;
 }
+.main-footer-link:hover {
+    color: #22ffdb;
+    transition: color 1s;
+}
 /*Footer Section Ends*/
 
 /*at media stuff */
