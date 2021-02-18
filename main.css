@@ -268,15 +268,70 @@
 
 /*Phones start*/
 @media only screen and (max-width: 812px) {
-.main-about-box {
-width: 250px;
-}
 
-.main-about-box-text {
+    .main-navbar {
+        height: 10vw;
+        margin-top: 0;
+        overflow: visible;
+        position: fixed;
+        transition: all 1s;
+        z-index: 3;
+    }
+
+    .main-navbar-selections {
+        margin-top: 2.5vw;
+    }
+
+    .bwd-navbar-logo {
+        width: 5.25vw;
+        height: 5.25vw;
+        left: 10px;
+        position: absolute;
+    }
+
+    .bwd-navbar-logo-text {
+        left: 50px;
+        position: absolute;
+        font-size: 3vw;
+        margin-top: 2.5vw;
+    }
+
+    .main-navbar-link {
+        text-decoration: none;
+        font-weight: 500;
+        font-size: 2.30vw;
+    }
+    .main-about-box {
+    width: 250px;
+    }
+
+    .main-about-box-text {
     margin-bottom: 0;
     margin-top: 0;
     text-align: center;
     font-size: .65em;
-}
+    }
+
+    .main-footer {
+    height: 10vw;
+    min-width: 100%;
+    bottom: 0;
+    position: fixed;
+    z-index: 3;
+    }
+
+    .bwd-footer-logo {
+    width: 7.5vw;
+    height: 7.5vw;
+    left: 10px;
+    position: absolute;
+    }
+
+    .main-footer-link {
+        font-size: 4vw;
+        margin-right: 0.5vw;
+        margin-left: 0.5vw;
+    }
+
   }
   /*Tablet end*/
