@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&family=Redressed&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Noto+Serif&family=Oswald:wght@500&family=Rubik:wght@500&family=Source+Sans+Pro:wght@700&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100&display=swap');
 .redressed {
   font-family: "Redressed";
 }
@@ -15,7 +16,7 @@
   font-weight: 500;
 }
 .noto-serif {
-  font-family: "Noto Serif";
+  font-family: "Noto Sans JP";
 }
 .rubik {
   font-family: "Rubik";
@@ -60,7 +61,12 @@
 html {
   background-color: #ececef;
 }
+
+nav {
+  height: 110%;
+}
 /*Universals End*/
+
 
 .main-navbar {
   height: 5.25vw;
@@ -257,9 +263,9 @@ html {
 }
 .hero-index-about {
   width: 100%;
-  height: 55vh;
+  height: 65vh;
   background-repeat: no-repeat;
-  background-image: url(./hero-minimal-bg-white-lines.png);
+  /* background-image: url(./hero-minimal-bg-white-lines.png); */
   background-size: cover;
 }
 .hero-index-about-text-section {
@@ -269,7 +275,7 @@ html {
 }
 
 .hero-index-about-text-section-text {
-  font-size: 0.85em;
+  font-size: 1em;
 }
 
 /*Footer Section Starts*/

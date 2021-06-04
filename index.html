@@ -7,31 +7,35 @@
     <title>Buckhead Web Development</title>
     <link rel="stylesheet" href="./main.css">
     <link rel="stylesheet" href="./colors.css">
+    <link rel="stylesheet" href="./materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    
+    <link href="./style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+
 
 </head>
 
 <body onresize="getNavbarHeight()">
     
     <!--NAVBAR START-->
-    <div class="flex-column">
-        <div class="main-navbar flex-row width-100 natural-black-bg" id="main-navbar-id">
-            <!--Main navbar logo start-->
-            <img src="./bwdDraftLogo.png" class="bwd-navbar-logo" alt="">
-            <a href="./index.html" class="no-text-decoration indigo-white-text bwd-navbar-logo-text rubik">Buckhead Web Development</a>
-            <!--Main navbar logo start-->
-            <!---->
-            <!--Main Nabar Selection Start-->
-            <div class="main-navbar-selections">
-                <!-- <a href="#" class="main-navbar-link white-text open-sans">Services</a>
-                <a href="#" class="main-navbar-link white-text open-sans">About</a> -->
-                <!-- <a href="./contact.html" class="main-navbar-link white-text open-sans">Contact</a> -->
-                <a href='tel:+1-404-532-8360' class="main-navbar-link white-text open-sans">contact admin</a>
-                <a href='tel:+1-470-560-2583' class="main-navbar-link white-text open-sans">contact developer</a>
-            </div>
-            <!--Main Nabar Selection End-->
+    <nav class="white" role="navigation">
+        <div class="nav-wrapper container">
+          <a id="logo-container" href="#" class="brand-logo">BWD Atlanta</a>
+          <ul class="right hide-on-med-and-down">
+            <li><a href='tel:+1-470-560-2583'>Contact</a></li>
+            <li><a href='tel:+1-470-560-2583'>Contact</a></li>
+            <li><a href='tel:+1-470-560-2583'>Contact</a></li>
+          </ul>
+    
+          <ul id="nav-mobile" class="sidenav">
+            <li><a href="#">Call</a></li>
+            <li><a href="#">Call</a></li>
+            <li><a href="#">Call</a></li>
+          </ul>
+          <a href='tel:+1-404-532-8360' data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">Menu</i></a>
         </div>
-    </div>
+      </nav>
     <!--NAVBAR END-->
     <!---->
     <!--Main Landing Start-->
@@ -56,9 +60,9 @@
     <div class="hero-index-about flex-column width-100">
         <h1 class="hero-index-header open-sans">About</h1>
         <div class="hero-index-about-text-section">
-            <p class="hero-index-about-text-section-text noto-serif">Buckhead Web Development as a company really does think differently.
-             We believe that happy employees create better products, applications and websites. We specialize
-             in helping the surrounding business community and entrepreneurs set up websites to boost their online presence. 
+            <p class="hero-index-about-text-section-text noto-serif">Buckhead Web Development is a company that is looking to directly benefit our community through technological advancement. 
+                In this day and age, every business needs a website, advertisements and marketing to thrive. Here at BWD we can help you acheive your business dreams. 
+             We believe that happy employees create better products, applications and websites. We also like to help entrepreneurs set up simple material based websites to boost their online presence. 
              <br/><br/> Check out our services below.
              </p>
             </div>
@@ -68,11 +72,11 @@
     <!--About Hero Index Ends-->
     <!---->
     <!--Main About Section Start-->
-    <div class="main-about flex-column">
+    <!-- <div class="main-about flex-column">
         <p class="main-about-header open-sans">Services Provided</p>
         <div class="flex-row">
             <!--Box 1 -->
-            <div class="main-about-box-1 flex-column">
+            <!-- <div class="main-about-box-1 flex-column">
                 <div class="main-about-text-section">
                     <h3 class="main-about-box-text-header rubik">Computer Services</h3>
                     <p class="main-about-box-text noto-serif">Computer Speed Optimization</p>
@@ -86,9 +90,9 @@
                     <p class="main-about-box-text noto-serif">Anti-Virus Installation</p>
                 </div>
             </div>
-                </div>
+                </div> -->
             <!--Box 2-->
-            <div class="main-about-box-2 flex-column" >
+            <!-- <div class="main-about-box-2 flex-column" >
                 <div class="flex-row">
                 <div class="main-about-text-section">
                     <h3 class="main-about-box-text-header rubik">Web Development</h3>
@@ -102,9 +106,9 @@
                     <p class="main-about-box-text noto-serif">Domain Support</p>
                 </div>
             </div>
-            </div>
+            </div> -->
             <!--Box 3-->
-             <div class="main-about-box-3 flex-column" >
+             <!-- <div class="main-about-box-3 flex-column" >
                  <div class="flex-row">
                 <div class="main-about-text-section">
                     <h3 class="main-about-box-text-header rubik">Business Support</h3>
@@ -117,33 +121,156 @@
                     <p class="main-about-box-text noto-serif">Social Media Advertisements</p>
                 </div>
             </div>
-        </div>
-        </div>
+        </div> -->
+        <!--</div> -->
     <!--Main About Section End-->
     <!---->
-    
-    <!--Footer Section Start-->
-    <!--NAVBAR START-->
-    <div class="flex-column">
-        <div class="main-footer flex-row width-100 natural-black-bg">
-            <!--Main navbar logo start-->
-            <img src="./bwdDraftLogo.png" class="bwd-footer-logo" alt="">
-            <!--Main navbar logo start-->
-            <!---->
-            <!--Main Footer Section Start-->
-            <div class="main-footer-selections">
-                <a href="mailto:hello@bwdatlanta.com" class="main-footer-link white-text open-sans">Email for Pricing Information</a>
-                <a href="aboutus.html" class="main-footer-link white-text open-sans">About Us</a>
-            </div> 
-            <!--Main Footer Section End-->
+  <div id="index-banner" class="parallax-container">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <br><br>
+        <h1 class="header center teal-text text-lighten-2"></h1>
+        <div class="row center">
+          <h5 class="header col s12 light"></h5>
         </div>
-    </div> 
-    <!--Footer Section End-->
-    <!---->
-    <!--Bottom Scripts Start-->
-    <script src="./Particle.js"></script>
-    <script src="./main.js"></script>
+        <div class="row center">
+          <a href='tel:+1-404-532-8360' id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Get Started</a>
+        </div>
+        <br><br>
+
+      </div>
+    </div>
+    <div class="parallax"><img src="hero_laptop-bg-b&w.png" alt="Unsplashed background img 1"></div>
+  </div>
+
+
+  <div class="container">
+    <div class="section">
+
+      <!--   Icon Section   -->
+      <div class="row">
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center brown-text"><i class="material-icons">flash_on</i></h2>
+        
+
+            <h3 class="main-about-box-text-header rubik center">Computer Services</h3>
+            <p class="main-about-box-text noto-serif">Computer Speed Optimization</p>
+            <p class="main-about-box-text noto-serif">Security Updates</p>
+            <p class="main-about-box-text noto-serif">Operating System Installation</p>
+            <p class="main-about-box-text noto-serif">OS Updates</p>
+            <p class="main-about-box-text noto-serif">Screen Replacement</p>
+            <p class="main-about-box-text noto-serif">Software Installation</p>
+            <p class="main-about-box-text noto-serif">Software Help</p>
+            <p class="main-about-box-text noto-serif">General Troubleshooting</p>
+            <p class="main-about-box-text noto-serif">Anti-Virus Installation</p>          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center brown-text"><i class="material-icons">group</i></h2>
+            <h3 class="main-about-box-text-header rubik center">Web Development</h3>
+            <p class="main-about-box-text noto-serif">Application Design</p>
+            <p class="main-about-box-text noto-serif">Application Development</p>
+            <p class="main-about-box-text noto-serif">Website Design</p>
+            <p class="main-about-box-text noto-serif">Website Development</p>
+            <p class="main-about-box-text noto-serif">CMS Development</p>
+            <p class="main-about-box-text noto-serif">Google Ads Implementations</p>
+            <p class="main-about-box-text noto-serif">Domain Creation</p>
+            <p class="main-about-box-text noto-serif">Domain Support</p>          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center brown-text"><i class="material-icons">settings</i></h2>
+
+            <h3 class="main-about-box-text-header center rubik">Business Support</h3>
+            <p class="main-about-box-text noto-serif">Ad Design</p>
+            <p class="main-about-box-text noto-serif">Marketing & Support</p>
+            <p class="main-about-box-text noto-serif">Commercial Creation (Video)</p>
+            <p class="main-about-box-text noto-serif">Corporate Photography</p>
+            <p class="main-about-box-text noto-serif">Photo & Video Editing</p>
+            <p class="main-about-box-text noto-serif">Social Media Campaigns</p>
+            <p class="main-about-box-text noto-serif">Social Media Advertisements</p>          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+  <div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <h5 class="header col s12 light" style="color: rgb(54, 54, 54);">We build modern and responsive front-end frameworks based on your needs</h5>
+        </div>
+      </div>
+    </div>
+    <div class="parallax"><img src="./hero-minimal-bg-white-lines.png" alt="Unsplashed background img 2"></div>
+  </div>
+
+  <div class="container">
+    <div class="section">
+
+      <div class="row">
+        <div class="col s12 center">
+          <h3><i class="mdi-content-send brown-text"></i></h3>
+          <h4>Contact Us</h4>
+          <p class="left-align light">Contacting us is easy. Email us at either ngun@bwdatlanta.com or cody@bwdatlanta.com. </p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+  <div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <h5 class="header col s12 light">Utilize the most up to date tech stacks to get and keep your business ahead. Give us a call today!</h5>
+        </div>
+      </div>
+    </div>
+    <div class="parallax"><img src="./hero_laptop-bg-2-purple&blue.png" alt="Unsplashed background img 3"></div>
+  </div>
+
+  <footer class="page-footer teal">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">more</h5>
+          <p class="grey-text text-lighten-4">We are a young couple working hard to build a better life together through technology and connections through our community.</p>
+
+
+        </div>
+        <div class="col l3 s12">
+          <h5 class="white-text">Connect</h5>
+          <ul>
+            <li><a class="white-text" href='tel:+1-404-532-8360'>Sales</a></li>
+            <li><a class="white-text" href='tel:+1-404-532-8360'>General Questions</a></li>
+            <li><a class="white-text" href='tel:+1-470-560-2583'>Development</a></li>
+            <li><a class="white-text" href='tel:+1-470-560-2583'>Engineering</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- <div class="footer-copyright">
+      <div class="container">
+      Made by <a class="brown-text text-lighten-3" href="http://materializecss.com">Materialize</a>
+      </div>
+    </div> -->
+  </footer>
+
 
 </body>
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="./materialize.min.js"></script>
+  <script src="./init.js"></script>
+  <script src="./Particle.js"></script>
+  <script src="./main.js"></script>
+
 
 </html>
