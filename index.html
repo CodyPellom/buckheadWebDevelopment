@@ -13,25 +13,30 @@
     <link href="./style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
 
+<style>
+.page-footer {
+  background-color: rgb(170, 170, 170);
+}
 
+</style>
 </head>
 
 <body onresize="getNavbarHeight()">
     
     <!--NAVBAR START-->
-    <nav class="white" role="navigation">
+    <nav class="white" role="navigation" style="height: 115%;">
         <div class="nav-wrapper container">
-          <a id="logo-container" href="#" class="brand-logo">BWD Atlanta</a>
+            <a id="logo-container" href="#" class="brand-logo">BWD Atlanta</a>
           <ul class="right hide-on-med-and-down">
-            <li><a href='tel:+1-470-560-2583'>Contact</a></li>
-            <li><a href='tel:+1-470-560-2583'>Contact</a></li>
+            <li><a href='tel:+1-470-560-2583'>Contact Sales</a></li>
+            <li><a href='tel:+1-470-560-2583'>Contact For Questions</a></li>
             <li><a href='tel:+1-470-560-2583'>Contact</a></li>
           </ul>
     
           <ul id="nav-mobile" class="sidenav">
-            <li><a href="#">Call</a></li>
-            <li><a href="#">Call</a></li>
-            <li><a href="#">Call</a></li>
+            <li><a href='tel:+1-404-532-8360'>Call Sales</a></li>
+            <li><a href='tel:+1-404-532-8360'>Contat for Developement Ideas</a></li>
+            <li><a href='tel:+1-404-532-8360'>Call Customer Services</a></li>
           </ul>
           <a href='tel:+1-404-532-8360' data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">Menu</i></a>
         </div>
@@ -40,17 +45,15 @@
     <!---->
     <!--Main Landing Start-->
     <div class="flex-column main-lander width-100">
-        <video muted loop autoplay class="main-lander-video">
-            <source src="./office-bg-02.mp4" type="video/mp4">
-
-        </video>
-        <div class="main-lander-text">
-            <h1 class="ml6 pretty-logo-blue-text main-lander-text-p open-sans">
-                <span class="text-wrapper">
-                  <span class="letters">Serving the community since 2016</span>
-                </span>
-              </h1>
-        </div>
+        <!-- <div class="main-lander-text"> -->
+          <h1 class="ml5">
+            <span class="text-wrapper">
+              <span class="line line1"></span>
+              <span class="letters letters-left m-corrector">Buckhead Web Development</span>
+              <span class="line line2"></span>
+            </span>
+          </h1>
+        <!-- </div> -->
     </div>
     <!--Main Landing End-->
     <!---->
@@ -217,7 +220,7 @@
         <div class="col s12 center">
           <h3><i class="mdi-content-send brown-text"></i></h3>
           <h4>Contact Us</h4>
-          <p class="left-align light">Contacting us is easy. Email us at either ngun@bwdatlanta.com or cody@bwdatlanta.com. </p>
+          <p class="center light">Contacting us is easy. Email us at either ngun@bwdatlanta.com or cody@bwdatlanta.com. </p>
         </div>
       </div>
 
@@ -229,14 +232,14 @@
     <div class="section no-pad-bot">
       <div class="container">
         <div class="row center">
-          <h5 class="header col s12 light">Utilize the most up to date tech stacks to get and keep your business ahead. Give us a call today!</h5>
+          <h5 class="center light">Utilize the most up to date tech stacks to get and keep your business ahead. Give us a call today!</h5>
         </div>
       </div>
     </div>
     <div class="parallax"><img src="./hero_laptop-bg-2-purple&blue.png" alt="Unsplashed background img 3"></div>
   </div>
 
-  <footer class="page-footer teal">
+  <footer class="page-footer">
     <div class="container">
       <div class="row">
         <div class="col l6 s12">
@@ -271,6 +274,7 @@
   <script src="./init.js"></script>
   <script src="./Particle.js"></script>
   <script src="./main.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
 
 
 </html>
