@@ -46,6 +46,23 @@
 .black-bg {
   background-color: black;
 }
+.contact-text {
+  font-size: 1.5rem;
+}
+.contact-us-portraits {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+  position: relative;
+}
+
+.bio-pic-index {
+width: 25vw;
+height: 25vw;
+}
+
 .ml6 {
   position: relative;
   font-weight: 900;
@@ -108,6 +125,10 @@ nav {
   position: absolute;
 }
 
+.brand-logo {
+  font-family: 'Pacifico';
+}
+
 .bwd-navbar-logo-text {
   left: 75px;
   position: absolute;
@@ -121,7 +142,7 @@ nav {
 
 /*Main Landing Starts*/
 .main-lander {
-  height:80vw;
+  height:100vw;
   background-image: url('./hero.png');
   background-repeat: no-repeat;
   background-size: contain;
@@ -248,7 +269,7 @@ justify-content: center;
   margin-bottom: 0;
   text-align: center;
   color: #81c7bb;
-  font-size: 1.25em;
+  font-size: 2vw;
   text-decoration: underline;
 }
 
@@ -258,6 +279,7 @@ justify-content: center;
   text-align: center;
   font-size: 0.75em;
   color: #333333;
+  font-size: 1.25em;
 }
 
 .main-about-box canvas {
@@ -310,6 +332,9 @@ justify-content: center;
   margin-top: 0;
   margin-bottom: 0;
 }
+.btn-large {
+  margin-top: 2.5%;
+}
 .contact-info-text-header {
   font-size: 2.25vw;
   font-weight: 700;
@@ -346,7 +371,7 @@ justify-content: center;
 }
 
 .hero-index-about-text-section-text {
-  font-size: 1em;
+  font-size: 1.25em;
 }
 
 /*Footer Section Starts*/
@@ -367,7 +392,7 @@ justify-content: center;
 .bwd-footer-logo-text {
   left: 75px;
   position: absolute;
-  font-size: 1.5vw;
+  font-size: 1.25em;
 }
 .main-footer-selections {
   position: absolute;
@@ -444,15 +469,16 @@ justify-content: center;
   .bwd-navbar-logo-text {
     left: 50px;
     position: absolute;
-    font-size: 3vw;
+    font-size: 1.5rem;
     margin-top: 2.5vw;
   }
 
   .main-navbar-link {
     text-decoration: none;
     font-weight: 500;
-    font-size: 2.3vw;
-  }f
+    font-size: 1.25rem;  
+  }
+  
   .main-about-box {
     width: 250px;
   }
