@@ -42,7 +42,6 @@ function navBarOpacityOnScroll() {
 anime.timeline({loop: false})
   .add({
     targets: '.ml5 .line',
-    opacity: [0.5,1],
     scaleX: [0, 1],
     easing: "easeInOutExpo",
     duration: 700
@@ -75,7 +74,7 @@ anime.timeline({loop: false})
   }).add({
     targets: '.ml5',
     opacity: 0,
-    duration: 500000,
+    duration: 50000000,
     easing: "easeOutExpo",
     delay: 1000
   });
